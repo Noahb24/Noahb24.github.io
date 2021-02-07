@@ -3,4 +3,46 @@ html {
     box-sizing: border-box;
     height: 100%;
     width: 100%;
+    font-family: 'Crete Round', serif;
+}
+
+/* container */
+
+.container {
+    margin: auto;
+    max-width: 95vw;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* into block */
+
+h1, h2, h3 {
+    width: fit-content;
+}
+
+.centerFlex {
+    display: flex;
+    flex-direction: column;
+}
+
+#introBlock {
+    width: 100%;
+    align-items: center;
+    height: 100vh;
+}
+
+#computerOpening {
+    width: 100%;
+    border-radius: 16px;
+}
+
+
+
+
+#aboutMe {
+    display: none;
 }
