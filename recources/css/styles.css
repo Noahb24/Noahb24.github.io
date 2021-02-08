@@ -136,3 +136,8 @@ body {
     border: black 2px solid;
     border-radius: 16px;
 }
+
+#footer {
+    font-size: 12px;
+    align-items: flex-end;
+}
